@@ -7,23 +7,23 @@ This repository contains the project materials and working structure for Program
 
 ## Repository Structure
 
-- \: original datasets used by the assignment
-- \: assignment handout and reference docs
-- \: source code for experiments and utilities
-- \: runnable project scripts
-- \: exploratory notebooks
-- \: generated outputs, tables, and metrics
-- \: report drafts and figures
+- `data/raw/`: original datasets used by the assignment
+- `docs/assignment/`: assignment handout and reference docs
+- `src/`: source code for experiments and utilities
+- `scripts/`: runnable project scripts
+- `notebooks/`: exploratory notebooks
+- `results/`: generated outputs, tables, and metrics
+- `reports/`: report drafts and figures
 
 ## Included Data
 
-- \: word analogy dataset
-- \: Amazon review sentiment dataset
-- \: assignment instructions
+- `data/raw/word-test.v1.txt`: word analogy dataset
+- `data/raw/amazon_reviews.csv`: Amazon review sentiment dataset
+- `docs/assignment/programming_project_2_2026_grad.pdf`: assignment instructions
 
 ## Suggested Next Steps
 
-1. Create a virtual environment and install the dependencies in \.
-2. Implement the word analogy pipeline in \ or \.
-3. Add sentiment classification experiments and save outputs in \.
-4. Draft the final report in \.
+1. Create a virtual environment and install the dependencies in `requirements.txt`.
+2. Implement the word analogy pipeline in `src/` or `scripts/`.
+3. Add sentiment classification experiments and save outputs in `results/`.
+4. Draft the final report in `reports/`.
