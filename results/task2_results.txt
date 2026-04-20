@@ -1,0 +1,13 @@
+======== Epoch 1 / 2 ========
+Epoch 1: 100%|█████████████████████████████| 246/246 [01:24<00:00,  2.93it/s, loss=0.239]
+Average Training Loss: 0.6406
+
+======== Epoch 2 / 2 ========
+Epoch 2: 100%|█████████████████████████████| 246/246 [01:29<00:00,  2.76it/s, loss=0.647]
+Average Training Loss: 0.4891
+
+======== Running Evaluation on Test Set ========
+100%|████████████████████████████████████████████████████| 62/62 [00:07<00:00,  8.37it/s]
+
+Final Test Accuracy: 82.81%
+Correctly predicted 814 out of 983 reviews.
